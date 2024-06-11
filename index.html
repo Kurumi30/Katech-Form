@@ -13,9 +13,16 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="icon" type="image/png" href="https://kurumi30.github.io/Katech/img/katech.png" />
-  <link rel="stylesheet" href="style.css">
-
-  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css"
+  integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"
+    integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/main.js" type="module" defer></script>
+  <script src="./js/sendNotification.js" type="module" defer></script>
 
   <title>Login</title>
 </head>
@@ -30,7 +37,8 @@
       <form id="loginForm">
         <div class="form-group mt-2">
           <label for="email">E-mail</label>
-          <input type="email" class="form-control" placeholder="Digite o e-mail" id="email" required autocomplete="username">
+          <input type="email" class="form-control" placeholder="Digite o e-mail" id="email" required
+            autocomplete="username">
         </div>
 
         <div class="form-group mt-2">
