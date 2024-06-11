@@ -11,7 +11,7 @@ const typing = setInterval(() => {
     document.querySelector(".error-500").setAttribute("data-text", data)
     i++
   }
-}, 500)
+}, 250)
 
 window.onload = async () => {
   const user = JSON.parse(localStorage.getItem('userData'))
